@@ -33,7 +33,7 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release CommonUtilsGH --no-restore
     - name: Test
-      run: dotnet test --no-restore --verbosity normal
+      run: dotnet test --no-restore --verbosity normal CommonUtilsGH
     - name: Pack
       run: dotnet pack --no-build --configuration Release CommonUtilsGH/CommonUtilsGH/CommonUtilsGH.csproj --output .
     - name: PushGithub
