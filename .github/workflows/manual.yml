@@ -37,6 +37,6 @@ jobs:
     - name: Pack
       run: dotnet pack --no-build --configuration Release CommonUtilsGH/CommonUtilsGH/CommonUtilsGH.csproj --output .
     - name: PushGithub
-      run: dotnet nuget push CommonUtilsGH *.nupkg --no-symbols --skip-duplicate
+      run: dotnet nuget push "**/*.nupkg" --no-symbols --skip-duplicate
       env:
         NUGET_AUTH_TOKEN: ${{ github.token }}
