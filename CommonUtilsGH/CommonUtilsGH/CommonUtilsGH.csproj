@@ -6,6 +6,7 @@
     <Version>1.0.1</Version>
     <Authors>Adm</Authors>
     <Description>Test project of common utils</Description>
+    <RepositoryUrl>https://github.com/aerott/CommonUtilsGH</RepositoryUrl>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
 
