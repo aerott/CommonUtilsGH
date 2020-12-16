@@ -27,7 +27,7 @@ jobs:
         source-url: https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
-        NUGET_AUTH_TOKEN: ${{ github.token }}
+        NUGET_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
     - name: Install dependencies
       run: dotnet restore CommonUtilsGH
     - name: Build
