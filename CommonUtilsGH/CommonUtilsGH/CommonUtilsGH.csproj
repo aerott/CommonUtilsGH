@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<PackageId>Admteam.Shockit.CommonUtilsGH</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Adm</Authors>
+    <Description>Test project of common utils</Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+</Project>
